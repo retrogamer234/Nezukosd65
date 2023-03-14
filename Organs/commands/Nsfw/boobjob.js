@@ -21,7 +21,7 @@ module.exports={
     let buttonMessage = {
         image: {url:ass},
         caption: `*😈*`,
-        footer: `*©Eternity-Team*`,
+        footer: `*Mitsu*`,
         buttons: buttons,
         headerType: 4
     }

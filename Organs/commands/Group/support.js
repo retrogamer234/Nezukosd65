@@ -20,14 +20,14 @@ const eternitylogogg = "https://i.ibb.co/t3Jd1wK/Eternity-6.png"
 const lemo = `
 *━『 Support Group Links 』━*
 
-*1) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ] :*
-https://chat.whatsapp.com/JCCZPbPUbM1536n62zSFZi
+*1) [ Nezuko 1 ] :*
+https://chat.whatsapp.com/JCCZPbPUbM15asdasd36n62zSFZi
 
-*2) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ₵𝖆𝖘𝖎𝖓ø ] 🎰 :*
-https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
+*2) [ Nezuko 2 ] 🎰 :*
+https://chat.whatsapp.com/J1WfFPXtmzZasdasGXFB59I0ETq
 
-*3) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ N̸s̸f̸w̸ ] :*
-https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
+*3) [ Nezoko 3] :*
+https://chat.whatsapp.com/J1WfFPXtasdsadmzZGXFB59I0ETq
 `
   await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
   await  client.sendMessage(m.sender,{image:{url:eternitylogogg},caption:lemo},{quoted:m})  

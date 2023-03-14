@@ -20,8 +20,8 @@ module.exports={
 
     let buttonMessage = {
         image: {url:ass},
-        caption: `*👙*`,
-        footer: `*©Eternity-Team*`,
+        caption: `*Pervert!!*`,
+        footer: `*Mitsu*`,
         buttons: buttons,
         headerType: 4
     }

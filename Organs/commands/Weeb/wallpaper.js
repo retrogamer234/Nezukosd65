@@ -41,7 +41,7 @@ module.exports = {
           url: wallpaper[i].image,
         },
         caption: `*Search term:* ${im[0]}`,
-        footer: `*©Eternity-Team*`,
+        footer: `*Mitsu*`,
         buttons: buttons,
         headerType: 4,
       };

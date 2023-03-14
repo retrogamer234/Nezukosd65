@@ -24,7 +24,7 @@ module.exports = {
 				{buttonId: `${prefix}help`, buttonText: {displayText: `help`}, type: 1},]
             let buth={
                 text:`*ℹ️Command Info*\n\n${data.join("\n")}`,
-                footer:"*©Eternity-Team*",
+                footer:"*Mitsu*",
                 buttons:buttonss,
                 headerType:1
             }    
@@ -57,11 +57,11 @@ let cm=commands.keys()
         } else {
         var emo=["📖","🍁","🍀","🌊","🎵","🔞","🎟","♨️","🉐",]
         } 
-        let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Nezuko*.
+        let txt = `*Ohayo* ${pushName} Watashiwa *Nezuko!*.
                        
 🧧 *Prefix :* [ ${prefix} ]
                        
-📝 Here's the *Commands* listed below :\n\n`
+📝 Here are the *Commands* below :\n\n`
         const keys = Object.keys(category);
         for (const key of keys) {
             txt += `*${key.toUpperCase()} ${emo[keys.indexOf(key)]} :-*  \n\`\`\`${category[key]
@@ -77,7 +77,7 @@ let cm=commands.keys()
     let hbutto = {
         image: {url: eternitylogo.image},
         caption: txt,
-        footer: '©Eternity-Team',
+        footer: 'Mitsu',
         buttons: Button,
         headerType: 4
     }

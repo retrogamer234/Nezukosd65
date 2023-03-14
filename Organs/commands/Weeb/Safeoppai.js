@@ -30,7 +30,7 @@ module.exports = {
                 url: oppai.data.url
             },
             caption: `*Oppai is love!!*`,
-            footer: `*©Eternity-Team*`,
+            footer: `*Mitsu*`,
             buttons: buttons,
             headerType: 4
         }

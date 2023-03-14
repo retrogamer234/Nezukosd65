@@ -122,7 +122,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
       let buttonMessage = {
         image: { url: rae },
         caption: `${txtt}`,
-        footer: `*©Eternity-Team*`,
+        footer: `*Mitsu*`,
         buttons: buttons,
         headerType: 4,
       };
